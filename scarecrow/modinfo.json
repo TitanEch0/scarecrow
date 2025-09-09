@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "scarecrowm",
+  "name": "Scarecrow Modded",
+  "description": "With the scarecrow you get an effective solution to a plague of mobs in your garden.",
+  "authors": [ "Mandikor", "edited by TitanEcho" ],
+  "version": "1.7.2",
+  "dependencies": {
+    "game": "1.21.1"
+  }
+}

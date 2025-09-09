@@ -1,0 +1,51 @@
+{
+	// Tab Name for Creative Mode
+	"game:tabname-scarecrow": "Vogelscheuche",
+
+
+	// Description Scarecrow
+	"scarecrow:item-scarecrow": "Vogelscheuche",
+	"scarecrow:itemdesc-scarecrow": "\n\nSie vertreibt unliebsame Gäste aus deinem Garten. Hasen und Waschbären haben Angst vor Vogelscheuchen und nähern sich bis auf 16 Blöcke. (Voreinstellung)\n\n<font color=\"#99c9f9\"><i>Sie schaut schrecklich aus, aber der Kürbis ist lecker.</i></font>\n\n",
+
+	"scarecrow:item-handbooktext-scarecrow": "Eine stehende Vogelscheuche kann mit <hk>ctrl</hk> + <hk>rightmouse</hk> und einer leeren rechten Hand aufgehoben werden.",
+
+	"scarecrow:item-creature-scarecrow": "Vogelscheuche",
+	"scarecrow:item-dead-creature-scarecrow": "zerstörte Vogelscheuche",
+
+
+	// Description Little Scarecrow
+	"scarecrow:item-little-scarecrow": "Kleine Vogelscheuche",
+	"scarecrow:itemdesc-little-scarecrow": "\n\nSie vertreibt unliebsame Gäste aus deinem Garten. Hasen und Waschbären haben weniger Angst vor kleinen Vogelscheuchen und nähern sich bis auf 8 Blöcke. (Voreinstellung)\n\n",
+
+	"scarecrow:item-handbooktext-little-scarecrow": "Eine stehende kleine Vogelscheuche kann mit <hk>ctrl</hk> + <hk>rightmouse</hk> und einer leeren rechten Hand aufgehoben werden.",
+
+	"scarecrow:item-creature-little-scarecrow": "Kleine Vogelscheuche",
+	"scarecrow:item-dead-creature-little-scarecrow": "zerstörte kleine Vogelscheuche",
+
+
+	// Description Strawdummy
+	"game:item-handbooktext-strawdummy": "Eine stehende Strohpuppe kann mit <hk>ctrl</hk> + <hk>rightmouse</hk> und einer leeren rechten Hand aufgehoben werden.",
+	"game:item-dead-creature-strawdummy": "zerstörte Strohpuppe",
+
+
+	// other text
+	"scarecrow:heldhelp-place-lsc": "Platziert die kleine Vogelscheuche auf den Boden",
+	"scarecrow:heldhelp-place-sc": "Platziert die Vogelscheuche auf den Boden",
+	"scarecrow:heldhelp-place-sd": "Platziert die Strohpuppe auf den Boden",
+
+	"scarecrow:entityhelp-pickup": "Aufheben",
+
+
+	// Config lib by Maltiez text
+	"ScarecrowBlockingSettings": "Blocking Settings",
+	"BlockRadiusScarecrow": "Blocking radius for scarecrow",
+	"BlockRadiusScarecrowComment": "Set the radius for the scarecrow to block hares and raccoons",
+	"BlockRadiusLittleScarecrow": "Blocking radius for little scarecrow",
+	"BlockRadiusLittleScarecrowComment": "Set the radius for the little scarecrow to block hares and raccoons",
+	"BlockRadiusStrawdummy": "Blocking radius for strawdummy",
+	"BlockRadiusStrawdummyComment": "Set the radius for the strawdummy to block hares and raccoons",
+	"ScarecrowDebugSettings": "Debug Settings",
+	"DebugOutput": "Enable Debug Output",
+	"DebugOutputComment": "Activate or deactivate debug informations"
+
+}

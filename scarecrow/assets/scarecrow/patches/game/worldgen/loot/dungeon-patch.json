@@ -1,0 +1,12 @@
+[
+  {
+    "file": "game:worldgen/loot/dungeon.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "type": "loottable",
+      "code": "scarecrow:scarecrow_mod_loot",
+      "weight": 5
+    }
+  }
+]

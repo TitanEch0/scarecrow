@@ -1,0 +1,70 @@
+[
+	{
+		"enabled": true,
+		"ingredientPattern": "_H_,SHS,_S_",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"H": {
+				"type": "block",
+				"code": "game:hay-aged-ud"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 1,
+		"output": {
+			"type": "item",
+			"code": "game:strawdummy",
+			"quantity": 1
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "_T_,STS,_S_",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"T": {
+				"type": "item",
+				"code": "game:thatch",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:strawdummy",
+			"quantity": 1
+		}
+	},
+	{
+		"enabled": true,
+		"ingredientPattern": "_G_,SGS,_S_",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"G": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:strawdummy",
+			"quantity": 1
+		}
+	}
+]
