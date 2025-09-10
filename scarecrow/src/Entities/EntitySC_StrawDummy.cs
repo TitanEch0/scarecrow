@@ -38,6 +38,8 @@ public class EntitySC_StrawDummy : EntityHumanoid
         if (
             entity.IsCreature
             && !entity.Code.Path.StartsWith("strawdummy")
+            && !entity.Code.Path.StartsWith("scarecrow")
+            && !entity.Code.Path.StartsWith("little-scarecrow")
             && !entity.Code.Path.StartsWith("villager-")
             && !entity.Code.Path.StartsWith("armorstand")
 
@@ -120,12 +122,6 @@ public class EntitySC_StrawDummy : EntityHumanoid
                 byEntity.World.SpawnItemEntity(itemStack, ServerPos.XYZ, null);
             }
 
-            if (Api.Side == EnumAppSide.Server)
-            {
-                sapi.Event.OnTrySpawnEntity -= SpawnInterceptor;
-                sapi.Event.OnEntitySpawn -= Event_EntitySpawn;
-            }
-
             byEntity.World.Logger.Audit("{0} Took 1x {1} at {2}.",
                 byEntity.GetName(),
                 itemStack.Collectible.Code,
@@ -165,5 +161,15 @@ public class EntitySC_StrawDummy : EntityHumanoid
             };
         });
         return interactions.Append(base.GetInteractionHelp(world, es, player));
+    }
+
+    public override void Die(EnumDespawnReason reason = EnumDespawnReason.Death, DamageSource damageSource = null)
+    {
+        base.Die(reason, damageSource);
+        if (sapi != null)
+        {
+            sapi.Event.OnTrySpawnEntity -= SpawnInterceptor;
+            sapi.Event.OnEntitySpawn -= Event_EntitySpawn;
+        }
     }
 }
